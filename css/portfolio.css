@@ -9,6 +9,12 @@
   --accent-background-color: #2196f3;
 }
 
+a { text-decoration: none; }
+/* Убираем маркеры */
+li {
+  list-style-type: none;
+ }
+
 .page {
   color: var(--primary-text-color);
   background-color: var(--white-color);
